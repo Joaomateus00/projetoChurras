@@ -1,0 +1,37 @@
+@charset "UTF-8";
+body{
+    background-image: url(../imagens/churrasc.jpg);
+    background-size: cover;
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 300px;
+    height: 350px;
+    float: left;
+    position: relative;
+    top: 200px;
+    margin-left: 40px;
+    background-color: antiquewhite;
+    padding: 25px;
+    border-radius: 10px;
+}
+h1{
+    margin-top: 0;
+}
+input {
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+}
+button{
+    display: block;
+    margin: auto;
+}
+#resultado{
+    position: absolute;
+    color: black;
+    top: 480px;
+    left: 140px;
+}
